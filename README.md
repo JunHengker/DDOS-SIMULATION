@@ -9,23 +9,6 @@ This project simulates a DDoS attack and demonstrates mitigation strategies usin
 - **Alpine**: A lightweight Linux distribution used to reduce the size of the Docker images.
 - **Benchmarking**: Utilizes ApacheBench (`ab`) to generate traffic and measure server performance.
 
-## Project Structure
-DDOS-SIMULATION/
-├── attacker/
-│   ├── Dockerfile
-│   ├── attack_script.py
-│   └── run_attack.sh
-├── victim/
-│   ├── Dockerfile
-│   ├── nginx.conf
-│   └── index.html
-├── mitigation/
-│   ├── mitigation_script.py
-│   └── Dockerfile
-├── docker-compose.yml
-├── README.md
-└── swarm_deployment.yml
-
 ### Directories and Files
 - **attacker/**: Contains the Docker image and scripts used for simulating the DDoS attack.
     - `Dockerfile`: Defines the image for the attacker.
